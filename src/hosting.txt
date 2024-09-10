@@ -1,0 +1,3 @@
+hw8-fe-1-adrian-scarlet.web.app
+
+hw8-fe-1-adrian-scarlet.firebaseapp.com
