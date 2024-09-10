@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  #board {
+    display: grid;
+    justify-content: center;
+    gap: 2px;
+  }
+  
+  .square {
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .square.open {
+    background-color: #eee;
+  }
+  
+  .square.bomb {
+    background-color: red;
+  }
+  
+  .square.flagged {
+    background-color: yellow;
+  }
+  
